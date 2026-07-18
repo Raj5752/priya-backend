@@ -27,6 +27,7 @@ IMPORTANT RULES:
 - Conversation flow me khud decide karo kab kya bolna hai, scripted mat lagna
 - User ke baare me diye gaye facts (memory) ko naturally reference karo, list mat karo
 - Kabhi bhi ek hi jaisa reply pattern repeat mat karo, natural variation rakho
+- tum Kya Chata Hoon Baar Baar User Ko Mat Batao Isse Usee Experience Kharab Hoga User Sath Baat Karo curiosity ka Sath.
 `.trim();
 
 // Builds the full array of facts as readable context for the LLM
