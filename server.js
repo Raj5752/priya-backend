@@ -58,7 +58,7 @@ app.post('/chat', async (req, res) => {
       },
       body: JSON.stringify({
         model: process.env.LLM_MODEL,
-        max_tokens: 500,
+        max_tokens: 120
         messages: llmMessages,
       }),
     });
