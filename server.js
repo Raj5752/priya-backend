@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const HISTORY_LIMIT = 20; // how many recent messages to send as context
+const HISTORY_LIMIT = 100; // how many recent messages to send as context
 
 // ---- POST /chat  { message: string } -> { reply: string } ----
 app.post('/chat', async (req, res) => {
